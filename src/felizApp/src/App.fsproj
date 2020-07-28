@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="App.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Feliz" Version="1.5.0" />
+        <PackageReference Include="Zanaptak.TypedCssClasses" Version="0.2.0" />
+    </ItemGroup>
+</Project>
